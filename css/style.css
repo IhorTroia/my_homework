@@ -1,0 +1,302 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+a {
+  color: black;
+}
+
+div > h1 {
+  padding: 20px;
+  margin: 10px 20px;
+  text-align: center;
+  color: aquamarine;
+  background-color: gray;
+  font-size: 40px;
+}
+
+.a_forMore {
+  background-color: aqua;
+  padding: 10px 20px;
+  margin: 20px 1410px 10px 40px;
+}
+
+.a_back {
+  background-color: aquamarine;
+  padding: 10px 20px;
+  margin: 20px 1730px 10px 40px;
+}
+
+.originOfSym_color {
+  color: rgba(255, 208, 0, 0.76);
+}
+
+.absolut_color {
+  color: azure;
+}
+
+.blackHandR_color {
+  color: rgb(255, 81, 0);
+}
+
+.resistance_color {
+  color: rgb(0, 153, 255);
+}
+
+.the2Law_color {
+  color: rgb(179, 41, 144);
+}
+
+.simTheory_color {
+  color: rgb(211, 11, 134);
+}
+
+.showbiz_color {
+  color: rgb(0, 153, 255);
+}
+
+.hullaballo_color {
+  color: green;
+}
+
+.ta_right {
+  text-align: right;
+}
+
+.a_right {
+  text-align: right;
+  padding: 10px;
+}
+
+.a_originOfSym {
+  background-color: rgba(255, 208, 0, 0.76);
+  margin-left: 1563px;
+}
+
+.a_left {
+  text-align: left;
+  padding: 10px;
+}
+
+.a_Absolut {
+  background-color: azure;
+  margin-right: 1535px;
+}
+
+.a_blackHandR {
+  background-color: rgb(255, 81, 0);
+  margin-left: 1534px;
+}
+
+.a_resistance {
+  background-color: rgb(0, 153, 255);
+  margin-right: 1533px;
+}
+
+.a_the2Law {
+  background-color: rgb(179, 41, 144);
+  margin-left: 1532px;
+}
+
+.a_drones {
+  background-color: azure;
+  margin-right: 1507px;
+}
+
+.a_simTheory {
+  background-color: rgb(211, 11, 134);
+  margin-left: 1485px;
+}
+
+.albums_style {
+  background-color: rgb(53, 50, 50);
+  padding: 20px 40px;
+  font-size: 20px;
+}
+
+.albums_style2 {
+  text-align: center;
+  background-color: rgb(53, 50, 50);
+  padding: 20px 40px;
+  font-size: 20px;
+}
+
+.albums_style3 {
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 30px;
+  color: white;
+  border: 1px solid red;
+}
+
+.icebg1 {
+  background-color: rgb(0, 183, 255);
+}
+
+.icebg2 {
+  background-color: rgb(0, 110, 255);
+}
+
+.icebg3 {
+  background-color: rgb(0, 68, 255);
+}
+
+.icebg4 {
+  background-color: rgb(17, 0, 255);
+}
+
+.icebg5 {
+  background-color: rgb(0, 0, 179);
+}
+
+.icebg6 {
+  background-color: rgb(13, 13, 90);
+}
+
+.icebg7 {
+  background-color: rgb(1, 1, 36);
+}
+
+.wrapper3 {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+span + span {
+  margin-left: 200px;
+}
+
+.thirdPage {
+  width: 300px;
+}
