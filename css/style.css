@@ -300,3 +300,93 @@ div > h1 {
 span + span {
   margin-left: 200px;
 }
+
+.block-top {
+  font-size: 0px;
+  margin-top: 40px;
+}
+
+.block-top > div {
+  outline: 1px solid red;
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  font-size: 16px;
+}
+
+.block-mid {
+  font-size: 0px;
+}
+
+.block-mid-child1 {
+  outline: 1px solid red;
+  display: inline-block;
+  width: 800px;
+  height: 400px;
+  font-size: 16px;
+}
+
+.block-mid-child2 {
+  outline: 1px solid red;
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  font-size: 16px;
+}
+
+.mid1 {
+  outline: 1px solid red;
+  width: 800px;
+  height: 200px;
+}
+
+.mid2 {
+  outline: 1px solid red;
+  width: 400px;
+  height: 133px;
+}
+
+.block-bottom {
+  font-size: 0px;
+  margin-bottom: 40px;
+}
+
+.block-bottom-child1 {
+  outline: 1px solid red;
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  font-size: 16px;
+}
+
+.block-bottom-child2 {
+  outline: 1px solid red;
+  display: inline-block;
+  width: 800px;
+  height: 400px;
+  font-size: 16px;
+}
+
+.bottom-top {
+  outline: 1px solid red;
+  width: 800px;
+  height: 200px;
+}
+
+.bottom-bottom {
+  font-size: 0px;
+}
+
+.bottom-bottom-child {
+  outline: 1px solid red;
+  display: inline-block;
+  width: 400px;
+  height: 200px;
+  font-size: 16px;
+}
+
+.last-bottom {
+  outline: 1px solid red;
+  width: 400px;
+  height: 100px;
+}
