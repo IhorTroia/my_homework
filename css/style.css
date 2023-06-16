@@ -127,14 +127,14 @@ table {
   border-spacing: 0;
 }
 
+a {
+  color: white;
+}
+
 h2 {
   font-size: 30px;
   margin-top: 15px;
   margin-bottom: 15px;
-}
-
-a {
-  color: black;
 }
 
 div > h1 {
@@ -144,6 +144,59 @@ div > h1 {
   color: aquamarine;
   background-color: gray;
   font-size: 40px;
+}
+
+.header {
+  background: #000;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 30px 0;
+  color: white;
+  font-size: 0px;
+}
+
+.container a {
+  text-decoration: none;
+}
+
+.logo {
+  width: 100px;
+  display: inline-block;
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.block-list {
+  width: 1000px;
+  display: inline-block;
+  font-size: 0px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.button-block {
+  width: 100px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.button-block button {
+  cursor: pointer;
+  background-color: azure;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.block-list li {
+  display: inline-block;
+  font-size: 25px;
+}
+
+.block-list li + li {
+  margin-left: 30px;
 }
 
 .a_forMore {
@@ -194,49 +247,48 @@ div > h1 {
   text-align: right;
 }
 
-.a_right {
-  text-align: right;
-  padding: 10px;
-}
-
 .a_originOfSym {
   background-color: rgba(255, 208, 0, 0.76);
-  margin-left: 1563px;
+  padding: 5px;
+  margin-left: 787px;
 }
 
-.a_left {
-  text-align: left;
-  padding: 10px;
-}
-
-.a_Absolut {
+.a_absolut {
+  color: #000;
   background-color: azure;
-  margin-right: 1535px;
+  padding: 5px;
+  margin-right: 795px;
 }
 
 .a_blackHandR {
   background-color: rgb(255, 81, 0);
-  margin-left: 1534px;
+  padding: 5px;
+  margin-left: 667px;
 }
 
 .a_resistance {
   background-color: rgb(0, 153, 255);
-  margin-right: 1533px;
+  padding: 5px;
+  margin-right: 715px;
 }
 
 .a_the2Law {
   background-color: rgb(179, 41, 144);
-  margin-left: 1532px;
+  padding: 5px;
+  margin-left: 780px;
 }
 
 .a_drones {
+  color: #000;
   background-color: azure;
-  margin-right: 1507px;
+  padding: 5px;
+  margin-right: 672px;
 }
 
 .a_simTheory {
   background-color: rgb(211, 11, 134);
-  margin-left: 1485px;
+  padding: 5px;
+  margin-left: 887px;
 }
 
 .albums_style {
