@@ -162,13 +162,8 @@ div > h1 {
   text-decoration: none;
 }
 
-.container-cards {
-  font-size: 0px;
-}
-
 .card {
-  font-size: 16px;
-  display: inline-block;
+  float: left;
   width: 400px;
   padding: 10px;
   vertical-align: top;
