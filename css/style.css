@@ -459,9 +459,6 @@ span + span {
   height: 200px;
 }
 
-.bottom-bottom {
-}
-
 .bottom-bottom-child {
   outline: 1px solid red;
   float: left;
