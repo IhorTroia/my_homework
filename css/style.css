@@ -127,6 +127,8 @@ table {
   border-spacing: 0;
 }
 
+/* -------------------------------------------------------------------------------------------- */
+
 a {
   color: white;
 }
@@ -146,6 +148,12 @@ div > h1 {
   font-size: 40px;
 }
 
+span + span {
+  margin-left: 200px;
+}
+
+/* -----------------------------------------------HEADER-------------------------------------------- */
+
 .header {
   background: #000;
 }
@@ -158,48 +166,16 @@ div > h1 {
   font-size: 0px;
 }
 
-.container a {
-  text-decoration: none;
-}
-
-.card {
-  float: left;
-  width: 400px;
-  padding: 10px;
-  vertical-align: top;
-}
-
-.card > div {
-  border: 1px solid gray;
-  border-radius: 8px;
-  padding: 10px;
-  background-color: aquamarine;
-}
-
-.card_link {
-  text-align: center;
-}
-
-.card h2 {
-  text-align: center;
-}
-
-.card img {
-  width: 100%;
-  object-fit: cover;
-  border: 3px solid blue;
-}
-
-.card-text {
-  height: 80px;
-  overflow: hidden;
-}
-
 .logo {
+  color: aquamarine;
   width: 100px;
   display: inline-block;
   font-size: 30px;
   vertical-align: middle;
+}
+
+.container a {
+  text-decoration: none;
 }
 
 .block-list {
@@ -214,6 +190,10 @@ div > h1 {
   width: 100px;
   display: inline-block;
   vertical-align: middle;
+}
+
+.block-list a:hover {
+  color: aquamarine;
 }
 
 .button-block button {
@@ -232,16 +212,14 @@ div > h1 {
   margin-left: 30px;
 }
 
-.a_forMore {
-  background-color: aqua;
-  padding: 10px 20px;
-  margin: 20px 1410px 10px 40px;
-}
+/* ----------------------------------------------ALBUMS------------------------------------------------------------------------- */
 
-.a_back {
-  background-color: aquamarine;
-  padding: 10px 20px;
-  margin: 20px 1730px 10px 40px;
+.albums_style {
+  background-color: rgb(53, 50, 50);
+  padding: 20px 40px;
+  width: 1823px;
+  margin: 20px auto;
+  font-size: 20px;
 }
 
 .originOfSym_color {
@@ -266,14 +244,6 @@ div > h1 {
 
 .simTheory_color {
   color: rgb(211, 11, 134);
-}
-
-.showbiz_color {
-  color: rgb(0, 153, 255);
-}
-
-.hullaballo_color {
-  color: green;
 }
 
 .ta_right {
@@ -324,13 +294,7 @@ div > h1 {
   margin-left: 887px;
 }
 
-.albums_style {
-  background-color: rgb(53, 50, 50);
-  padding: 20px 40px;
-  width: 1823px;
-  margin: 20px auto;
-  font-size: 20px;
-}
+/* -----------------------------------------------------MORE ALBUMS--------------------------------------------------------------- */
 
 .albums_style2 {
   text-align: center;
@@ -340,6 +304,16 @@ div > h1 {
   margin: 20px auto;
   font-size: 20px;
 }
+
+.showbiz_color {
+  color: rgb(0, 153, 255);
+}
+
+.hullaballo_color {
+  color: green;
+}
+
+/* ----------------------------------------------------ICEBERG-------------------------------------------------------------------------- */
 
 .albums_style3 {
   text-align: center;
@@ -377,24 +351,11 @@ div > h1 {
   background-color: rgb(1, 1, 36);
 }
 
-.wrapper3 {
-  width: 1200px;
-  margin: 0 auto;
-}
-
-span + span {
-  margin-left: 200px;
-}
+/* --------------------------------------------------------------FLOAT-------------------------------------------------------------------- */
 
 .block-top {
   margin-top: 40px;
   background: black;
-}
-
-.clearfix::after {
-  display: block;
-  content: "";
-  clear: both;
 }
 
 .block-top > div {
@@ -464,4 +425,52 @@ span + span {
 .last-bottom {
   outline: 1px solid red;
   height: 100px;
+}
+
+/* -------------------------------CARDS----------------------------------------------------------------------- */
+
+.card {
+  float: left;
+  width: 400px;
+  padding: 10px;
+  vertical-align: top;
+}
+
+.card > div {
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: aquamarine;
+}
+
+.card_link {
+  text-align: center;
+}
+
+.card h2 {
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+  border: 3px solid blue;
+}
+
+.card-text {
+  height: 80px;
+  overflow: hidden;
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+.wrapper3 {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
 }
