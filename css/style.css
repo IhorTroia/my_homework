@@ -392,36 +392,36 @@ span + span {
 }
 
 .block-top {
-  font-size: 0px;
   margin-top: 40px;
+  background: black;
+}
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
 }
 
 .block-top > div {
   outline: 1px solid red;
-  display: inline-block;
+  float: left;
   width: 400px;
   height: 400px;
   font-size: 16px;
 }
 
 .block-mid {
-  font-size: 0px;
+  background: green;
 }
 
 .block-mid-child1 {
   outline: 1px solid red;
-  display: inline-block;
-  width: 800px;
-  height: 400px;
-  font-size: 16px;
+  float: left;
 }
 
 .block-mid-child2 {
   outline: 1px solid red;
-  display: inline-block;
-  width: 400px;
-  height: 400px;
-  font-size: 16px;
+  float: left;
 }
 
 .mid1 {
@@ -437,46 +437,39 @@ span + span {
 }
 
 .block-bottom {
-  font-size: 0px;
+  background: blue;
   margin-bottom: 40px;
 }
 
 .block-bottom-child1 {
   outline: 1px solid red;
-  display: inline-block;
+  float: left;
   width: 400px;
   height: 400px;
-  font-size: 16px;
 }
 
 .block-bottom-child2 {
   outline: 1px solid red;
-  display: inline-block;
+  float: left;
   width: 800px;
-  height: 400px;
-  font-size: 16px;
 }
 
 .bottom-top {
   outline: 1px solid red;
-  width: 800px;
   height: 200px;
 }
 
 .bottom-bottom {
-  font-size: 0px;
 }
 
 .bottom-bottom-child {
   outline: 1px solid red;
-  display: inline-block;
+  float: left;
   width: 400px;
   height: 200px;
-  font-size: 16px;
 }
 
 .last-bottom {
   outline: 1px solid red;
-  width: 400px;
   height: 100px;
 }
