@@ -127,350 +127,95 @@ table {
   border-spacing: 0;
 }
 
-/* -------------------------------------------------------------------------------------------- */
+body {
+  background: rgb(119, 115, 115);
+}
 
-a {
-  color: white;
+header {
+  background: #111;
+}
+
+footer {
+  background: #111;
 }
 
 h2 {
+  color: azure;
   font-size: 30px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 10px;
 }
 
-div > h1 {
-  padding: 20px;
-  margin: 10px 20px;
-  text-align: center;
-  color: aquamarine;
-  background-color: gray;
-  font-size: 40px;
-}
-
-span + span {
-  margin-left: 200px;
-}
-
-/* -----------------------------------------------HEADER-------------------------------------------- */
-
-.header {
-  background: #000;
+a {
+  text-decoration: none;
+  color: azure;
+  width: 100%;
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 30px 0;
-  color: white;
-  font-size: 0px;
 }
 
-.logo {
-  color: aquamarine;
-  width: 100px;
-  display: inline-block;
-  font-size: 30px;
-  vertical-align: middle;
-}
-
-.container a {
-  text-decoration: none;
-}
-
-.block-list {
-  width: 1000px;
-  display: inline-block;
-  font-size: 0px;
-  vertical-align: middle;
-  text-align: center;
-}
-
-.button-block {
-  width: 100px;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.block-list a:hover {
-  color: aquamarine;
-}
-
-.button-block button {
-  cursor: pointer;
-  background-color: azure;
-  padding: 8px 12px;
-  border-radius: 8px;
-}
-
-.block-list li {
-  display: inline-block;
-  font-size: 25px;
-}
-
-.block-list li + li {
-  margin-left: 30px;
-}
-
-/* ----------------------------------------------ALBUMS------------------------------------------------------------------------- */
-
-.albums_style {
-  background-color: rgb(53, 50, 50);
-  padding: 20px 40px;
-  width: 1823px;
-  margin: 20px auto;
-  font-size: 20px;
-}
-
-.originOfSym_color {
-  color: rgba(255, 208, 0, 0.76);
-}
-
-.absolut_color {
+.title {
   color: azure;
-}
-
-.blackHandR_color {
-  color: rgb(255, 81, 0);
-}
-
-.resistance_color {
-  color: rgb(0, 153, 255);
-}
-
-.the2Law_color {
-  color: rgb(179, 41, 144);
-}
-
-.simTheory_color {
-  color: rgb(211, 11, 134);
-}
-
-.ta_right {
-  text-align: right;
-}
-
-.a_originOfSym {
-  background-color: rgba(255, 208, 0, 0.76);
-  padding: 5px;
-  margin-left: 787px;
-}
-
-.a_absolut {
-  color: #000;
-  background-color: azure;
-  padding: 5px;
-  margin-right: 795px;
-}
-
-.a_blackHandR {
-  background-color: rgb(255, 81, 0);
-  padding: 5px;
-  margin-left: 667px;
-}
-
-.a_resistance {
-  background-color: rgb(0, 153, 255);
-  padding: 5px;
-  margin-right: 715px;
-}
-
-.a_the2Law {
-  background-color: rgb(179, 41, 144);
-  padding: 5px;
-  margin-left: 780px;
-}
-
-.a_drones {
-  color: #000;
-  background-color: azure;
-  padding: 5px;
-  margin-right: 672px;
-}
-
-.a_simTheory {
-  background-color: rgb(211, 11, 134);
-  padding: 5px;
-  margin-left: 887px;
-}
-
-/* -----------------------------------------------------MORE ALBUMS--------------------------------------------------------------- */
-
-.albums_style2 {
   text-align: center;
-  background-color: rgb(53, 50, 50);
-  padding: 20px 40px;
-  width: 650px;
+  font-size: 50px;
+  padding: 20px 0;
+}
+
+.album {
+  border-radius: 30px;
+  padding: 20px 0;
+  color: azure;
+  max-width: 600px;
   margin: 20px auto;
+  text-align: center;
+  background: #111;
+  position: relative;
+}
+
+.menu {
+  width: 300px;
+  background: #111;
   font-size: 20px;
-}
-
-.showbiz_color {
-  color: rgb(0, 153, 255);
-}
-
-.hullaballo_color {
-  color: green;
-}
-
-/* ----------------------------------------------------ICEBERG-------------------------------------------------------------------------- */
-
-.albums_style3 {
+  padding: 5px 0;
   text-align: center;
-  padding: 20px 0px;
-  font-size: 30px;
-  color: white;
-  border: 1px solid red;
+  position: fixed;
+  left: 0;
+  top: 50%;
+  margin-top: -122px;
 }
 
-.icebg1 {
-  background-color: rgb(0, 183, 255);
+.menu ul li {
+  border: 1px solid azure;
+  margin: 10px;
 }
 
-.icebg2 {
-  background-color: rgb(0, 110, 255);
+.menu ul li:hover a {
+  color: aqua;
 }
 
-.icebg3 {
-  background-color: rgb(0, 68, 255);
-}
-
-.icebg4 {
-  background-color: rgb(17, 0, 255);
-}
-
-.icebg5 {
-  background-color: rgb(0, 0, 179);
-}
-
-.icebg6 {
-  background-color: rgb(13, 13, 90);
-}
-
-.icebg7 {
-  background-color: rgb(1, 1, 36);
-}
-
-/* --------------------------------------------------------------FLOAT-------------------------------------------------------------------- */
-
-.block-top {
-  margin-top: 40px;
-  background: black;
-}
-
-.block-top > div {
-  outline: 1px solid red;
-  float: left;
-  width: 400px;
-  height: 400px;
-  font-size: 16px;
-}
-
-.block-mid {
-  background: green;
-}
-
-.block-mid-child1 {
-  outline: 1px solid red;
-  float: left;
-}
-
-.block-mid-child2 {
-  outline: 1px solid red;
-  float: left;
-}
-
-.mid1 {
-  outline: 1px solid red;
-  width: 800px;
-  height: 200px;
-}
-
-.mid2 {
-  outline: 1px solid red;
-  width: 400px;
-  height: 133px;
-}
-
-.block-bottom {
-  background: blue;
-  margin-bottom: 40px;
-}
-
-.block-bottom-child1 {
-  outline: 1px solid red;
-  float: left;
-  width: 400px;
-  height: 400px;
-}
-
-.block-bottom-child2 {
-  outline: 1px solid red;
-  float: left;
-  width: 800px;
-}
-
-.bottom-top {
-  outline: 1px solid red;
-  height: 200px;
-}
-
-.bottom-bottom-child {
-  outline: 1px solid red;
-  float: left;
-  width: 400px;
-  height: 200px;
-}
-
-.last-bottom {
-  outline: 1px solid red;
-  height: 100px;
-}
-
-/* -------------------------------CARDS----------------------------------------------------------------------- */
-
-.card {
-  float: left;
-  width: 400px;
-  padding: 10px;
-  vertical-align: top;
-}
-
-.card > div {
-  border: 1px solid gray;
-  border-radius: 8px;
-  padding: 10px;
-  background-color: aquamarine;
-}
-
-.card_link {
+.end {
   text-align: center;
+  padding: 40px 0;
 }
 
-.card h2 {
-  text-align: center;
+.hidden {
+  display: none;
+  width: 600px;
+  height: 200px;
+  font-size: 20px;
+  font-weight: 900;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -300px;
+  color: #111;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 50px 10px;
 }
 
-.card img {
-  width: 100%;
-  object-fit: cover;
-  border: 3px solid blue;
-}
-
-.card-text {
-  height: 80px;
-  overflow: hidden;
-}
-
-/* -------------------------------------------------------------------------------------- */
-
-.wrapper3 {
-  width: 1200px;
-  margin: 0 auto;
-}
-
-.clearfix::after {
+.album:hover .hidden {
   display: block;
-  content: "";
-  clear: both;
 }
