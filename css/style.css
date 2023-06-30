@@ -1,134 +1,31 @@
-* {
-  box-sizing: border-box;
+@import url(reset.css);
+
+@font-face {
+  font-family: "Agdasima";
+  src: url("../fonts/Agdasima-Regular.woff2") format("woff2");
+  font-weight: 100;
+  font-display: swap;
 }
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+@font-face {
+  font-family: "Crimson Text";
+  src: url("../fonts/CrimsonText-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
 }
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("../fonts/IBMPlexMono-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
 }
-body {
-  line-height: 1;
-}
-ol,
-ul {
-  list-style: none;
-}
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
+
+/* ! ----------GLOBAL------------- */
 
 body {
   background: rgb(119, 115, 115);
+  font-family: "Agdasima";
 }
 
 header {
@@ -156,12 +53,70 @@ a {
   margin: 0 auto;
 }
 
-.title {
-  color: azure;
-  text-align: center;
-  font-size: 50px;
+/* ?----------HEADER---------------- */
+
+.nav {
+  text-transform: uppercase;
+  font-size: 30px;
   padding: 20px 0;
 }
+
+.nav > ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav > ul li {
+  border: 1px solid azure;
+  padding: 5px;
+}
+
+.nav > ul li a {
+  display: block;
+}
+
+.position-parent {
+  position: relative;
+}
+
+.position-parent:hover .position-child {
+  display: block;
+}
+
+.position-parent2:hover .position-child2 {
+  display: block;
+}
+
+.position-child {
+  display: none;
+  text-align: center;
+  background: azure;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  font-family: "IBM Plex Mono";
+}
+
+.position-child li a {
+  color: #111;
+  display: block;
+  border: 1px solid aquamarine;
+}
+
+.position-child2 {
+  width: 100%;
+  display: none;
+  position: absolute;
+  right: 100%;
+  bottom: 0;
+  text-align: center;
+  background: azure;
+  z-index: 1;
+  font-family: "Crimson Text";
+}
+
+/* ?------------ALBUMS------------------  */
 
 .album {
   border-radius: 30px;
@@ -191,6 +146,10 @@ a {
   margin: 10px;
 }
 
+.menu ul li a {
+  display: block;
+}
+
 .menu ul li:hover a {
   color: aqua;
 }
@@ -202,15 +161,15 @@ a {
 
 .hidden {
   display: none;
-  width: 600px;
   height: 200px;
+  overflow: hidden;
   font-size: 20px;
   font-weight: 900;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 0;
+  right: 0;
   margin-top: -100px;
-  margin-left: -300px;
   color: #111;
   background: rgba(255, 255, 255, 0.7);
   padding: 50px 10px;
