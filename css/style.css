@@ -79,6 +79,10 @@ a {
   position: relative;
 }
 
+li:hover a {
+  color: aquamarine;
+}
+
 .position-parent:hover .position-child {
   display: block;
 }
