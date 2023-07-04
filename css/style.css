@@ -182,3 +182,60 @@ li:hover a {
 .album:hover .hidden {
   display: block;
 }
+
+/* ?------Homeworks Global---------- */
+
+.homework-container {
+  margin: 20px 0;
+}
+
+.w400 {
+  width: 400px;
+}
+
+.w800 {
+  width: 800px;
+}
+
+.h400 {
+  height: 400px;
+}
+
+.h200 {
+  height: 200px;
+}
+
+.h133 {
+  height: 133.3px;
+}
+
+.h100 {
+  height: 100px;
+}
+
+.border {
+  border: 1px solid red;
+}
+
+.bg-top {
+  background: pink;
+}
+
+.bg-mid {
+  background: violet;
+}
+
+.bg-bottom {
+  background: purple;
+}
+
+/* -----Inline---------- */
+
+.inline-parent {
+  font-size: 0;
+}
+
+.inline-child {
+  font-size: 16px;
+  display: inline-block;
+}

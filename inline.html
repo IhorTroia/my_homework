@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inline Block</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="nav">
+          <ul>
+            <li><a href="index.html">Main Page</a></li>
+            <li><a href="albums.html">Muse Albums</a></li>
+            <li class="position-parent">
+              <a href="#">Homeworks</a>
+              <ul class="position-child">
+                <li><a href="#">Inline</a></li>
+                <li><a href="#">Float</a></li>
+                <li class="position-parent2">
+                  <a href="#">More</a>
+                  <ul class="position-child2">
+                    <li><a href="#">Flex</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="homework-container">
+          <div class="inline-parent bg-top">
+            <div class="w400 h400 inline-child border"></div>
+            <div class="w400 h400 inline-child border"></div>
+            <div class="w400 h400 inline-child border"></div>
+          </div>
+          <div class="inline-parent bg-mid">
+            <div class="w800 inline-child">
+              <div class="h200 border"></div>
+              <div class="h200 border"></div>
+            </div>
+            <div class="w400 inline-child">
+              <div class="h133 border"></div>
+              <div class="h133 border"></div>
+              <div class="h133 border"></div>
+            </div>
+          </div>
+          <div class="inline-parent bg-bottom">
+            <div class="w400 h400 inline-child border"></div>
+            <div class="w800 inline-child">
+              <div class="h200 border"></div>
+              <div class="inline-parent">
+                <div class="w400 h200 inline-child border"></div>
+                <div class="w400 inline-child">
+                  <div class="h100 border"></div>
+                  <div class="h100 border"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
