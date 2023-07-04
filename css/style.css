@@ -239,3 +239,21 @@ li:hover a {
   font-size: 16px;
   display: inline-block;
 }
+
+/* -----Float------------- */
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.float-child {
+  float: left;
+}
+
+/* ----Flex----------------- */
+
+.flex-parent {
+  display: flex;
+}
