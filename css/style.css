@@ -32,10 +32,6 @@ header {
   background: #111;
 }
 
-footer {
-  background: #111;
-}
-
 h2 {
   color: azure;
   font-size: 30px;
@@ -66,13 +62,14 @@ a {
   justify-content: space-between;
 }
 
-.nav > ul li {
+.nav > ul > li {
   border: 1px solid azure;
-  padding: 5px;
+  padding: 5px 5px 5px 30px;
 }
 
 .nav > ul li a {
   display: block;
+  position: relative;
 }
 
 .position-parent {
@@ -120,6 +117,15 @@ li:hover a {
   font-family: "Crimson Text";
 }
 
+.icon {
+  width: 30px;
+  height: 30px;
+  fill: aquamarine;
+  position: absolute;
+  top: 0;
+  right: 100%;
+}
+
 /* ?------------ALBUMS------------------  */
 
 .album {
@@ -156,11 +162,6 @@ li:hover a {
 
 .menu ul li:hover a {
   color: aqua;
-}
-
-.end {
-  text-align: center;
-  padding: 40px 0;
 }
 
 .hidden {
@@ -256,4 +257,38 @@ li:hover a {
 
 .flex-parent {
   display: flex;
+}
+
+/* ?----Footer--------- */
+
+.footer {
+  background: #111;
+  padding: 60px 0;
+}
+
+.social {
+  text-align: center;
+  color: aquamarine;
+  font-size: 30px;
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.social-list li a {
+  display: block;
+}
+
+.social-icons {
+  fill: aquamarine;
+  width: 50px;
+  height: 50px;
+}
+
+.social-list li a:hover .social-icons {
+  fill: aqua;
 }
