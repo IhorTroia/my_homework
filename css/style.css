@@ -74,6 +74,7 @@ a {
   position: relative;
   padding: 5px 5px 5px 35px;
   border: 1px solid azure;
+  transition: color 2s ease;
 }
 
 .nav > ul > li:last-child > a {
@@ -88,27 +89,29 @@ a {
   position: relative;
 }
 
-li:hover a {
+.nav > ul > li:hover > a {
   color: aquamarine;
 }
 
 .position-parent:hover .position-child {
-  display: block;
+  left: 0;
+  top: 100%;
 }
 
 .position-parent2:hover .position-child2 {
-  display: block;
+  right: 100%;
+  z-index: 1;
 }
 
 .position-child {
-  display: none;
   text-align: center;
   background: azure;
   position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
+  width: 100%;
+  top: 150%;
+  left: -1000%;
   font-family: "IBM Plex Mono";
+  transition: left 2s linear, top 0.5s ease 1.5s;
 }
 
 .position-child li a {
@@ -119,14 +122,14 @@ li:hover a {
 
 .position-child2 {
   width: 100%;
-  display: none;
   position: absolute;
-  right: 100%;
+  right: 0;
   top: 0;
   text-align: center;
   background: azure;
-  z-index: 1;
+  z-index: -1;
   font-family: "Crimson Text";
+  transition: right 0.5s ease;
 }
 
 .icon {
@@ -167,6 +170,10 @@ li:hover a {
   text-align: center;
   background: #111;
   position: relative;
+}
+
+.album:first-child {
+  margin-top: 100px;
 }
 
 .menu {
@@ -217,7 +224,7 @@ li:hover a {
 /* ?------Homeworks Global---------- */
 
 .homework-container {
-  margin: 20px 0;
+  margin: 100px 0;
 }
 
 .w400 {
