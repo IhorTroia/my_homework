@@ -321,11 +321,14 @@ a {
 }
 
 .social-icons {
-  fill: aquamarine;
+  fill: #111;
+  stroke: aquamarine;
   width: 50px;
   height: 50px;
+  transition: stroke 0.5s ease, fill 1s ease 0.5s;
 }
 
 .social-list li a:hover .social-icons {
-  fill: aqua;
+  fill: aquamarine;
+  stroke: black;
 }
