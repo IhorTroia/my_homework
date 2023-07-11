@@ -56,6 +56,71 @@ a {
   margin: 0 auto;
 }
 
+/* ?---------Left Menu-------------- */
+
+.wrapper {
+  padding-left: 65px;
+  transition: all 1s ease;
+}
+
+.left-menu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  color: #111;
+  background: azure;
+  width: 65px;
+  overflow: hidden;
+  transition: all 1s ease;
+}
+
+.left-list li a {
+  color: #111;
+  font-size: 40px;
+  padding: 15px 0 15px 90px;
+  position: relative;
+  display: block;
+  transition: all 1s ease;
+}
+
+.left-list li:hover a {
+  background: aquamarine;
+}
+
+.left-list li:hover svg {
+  transform: scale(1.5) rotate(45deg);
+}
+
+.left-menu:hover {
+  width: 350px;
+}
+
+.left-menu:hover + .wrapper {
+  padding-left: 350px;
+}
+
+.left-list {
+  padding-top: 82px;
+}
+
+.icon-left-menu {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  border: 2px solid black;
+  padding: 0 5px;
+  transform: rotate(-45deg);
+}
+
+.icon-left-menu > svg {
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  transition: all 1s ease;
+  fill: #111;
+  stroke: aquamarine;
+}
+
 /* ?----------HEADER---------------- */
 
 .nav {
@@ -109,9 +174,9 @@ a {
   position: absolute;
   width: 100%;
   top: 150%;
-  left: -1000%;
+  left: -1200%;
   font-family: "IBM Plex Mono";
-  transition: left 2s linear, top 0.5s ease 1.5s;
+  transition: left 1s linear, top 0.3s ease 0.7s;
 }
 
 .position-child li a {
