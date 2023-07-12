@@ -67,11 +67,22 @@ a {
   position: fixed;
   top: 0;
   bottom: 0;
-  color: #111;
   background: azure;
   width: 65px;
   overflow: hidden;
   transition: all 1s ease;
+}
+
+.left-menu:hover {
+  width: 350px;
+}
+
+.left-menu:hover + .wrapper {
+  padding-left: 350px;
+}
+
+.left-list {
+  padding-top: 82px;
 }
 
 .left-list li a {
@@ -89,18 +100,8 @@ a {
 
 .left-list li:hover svg {
   transform: scale(1.5) rotate(45deg);
-}
-
-.left-menu:hover {
-  width: 350px;
-}
-
-.left-menu:hover + .wrapper {
-  padding-left: 350px;
-}
-
-.left-list {
-  padding-top: 82px;
+  fill: aquamarine;
+  stroke: black;
 }
 
 .icon-left-menu {
@@ -110,6 +111,7 @@ a {
   border: 2px solid black;
   padding: 0 5px;
   transform: rotate(-45deg);
+  overflow: hidden;
 }
 
 .icon-left-menu > svg {
